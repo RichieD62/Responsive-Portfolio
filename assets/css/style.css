@@ -1,0 +1,590 @@
+header{
+   color: #ffffff;
+   border-color: #cccccc;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-color: #ffffff;
+    background-image: url("../images/gravel.png");
+    color: #777777;
+}
+
+hr{
+    width: 900px;
+}
+
+#ProfileImage{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 55px 15px;
+}
+
+.bio{
+    font-size: 18px;
+}
+
+#p1{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#p2{
+    padding-left: 15px;
+}
+
+#p3{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+
+.container{
+    width: 960px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+h2{
+    color: #000000;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.main{
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+#main-portfolio{
+    padding: 20px;
+    padding-bottom: 250px;
+}
+
+#copyright{
+    padding-top: 35px;
+    font-size:10px;
+}
+
+footer{
+    text-align: center;
+    background-color:#666666;
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    margin: 0 -10px -10px -10px;
+}
+
+
+#contact{
+    padding-left: 15px;
+}
+
+#Portfolio{
+    padding-left: 15px; 
+}
+
+#about{
+    padding-left: 15px;
+}
+
+#Name-Space{
+    width:900px;
+}
+
+#Email-Space{
+    width: 900px;
+}
+
+#Message-Space{
+    width: 900px;
+    height: 250px;
+}
+
+.name-email-message{
+    padding-left: 15px;
+}
+
+.whole-nav{
+    background-color: #fff;
+    height: 90px;
+    position: relative;
+    margin: -10px -10px 20px -10px;
+}
+
+.top-nav{
+    background-color: #4aaaa5;
+    padding: 5px;
+    text-align: center;
+    float: left;
+    margin-left: 280px;
+}
+
+.top-nav-right > a{
+    text-decoration: none;
+    color: #777777;
+    margin: 5px;
+}
+
+.top-nav-right > a:hover{
+    background-color: #4aaaa5;
+    color: #666666;
+}
+
+
+
+.top-nav-right{
+    clear: both;
+    float: right;
+    margin-top: -45px;
+    margin-right: 275px; 
+}
+
+
+#hangman{
+    position: absolute;
+    left: 5px;
+    top: 125px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#trivia{
+    position: absolute;
+    left: 5px;
+    top: 340px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#rps{
+    position: absolute;
+    left: 5px;
+    top: 555px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#rpg{
+    position: absolute;
+    left: 265px;    
+    top: 125px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#rutgers{
+    position: absolute;
+    left: 265px;
+    top: 340px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+#row1{
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    left: 15px;
+}
+
+#row2{
+    position: relative;
+}
+
+.image{
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.port-image{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 980px){
+      
+    .top-nav-right{
+        clear: both;
+        position: relative;
+        left: 50px;
+    }
+
+    .top-nav{
+        margin-left: 180px;
+    }
+
+    .container{
+        width: 650px;
+        min-height: 100%;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        clear: both;
+    }
+
+    hr{
+        width: 600px;
+    }
+
+    .bio{
+        font-size: 15px;
+    }
+
+    #copyright{
+        padding-top: 35px;
+        font-size:10px;
+    }
+
+    .image{
+        margin: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    #hangman{
+        position: absolute;
+        left: 0px;
+        top: 125px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #trivia{
+        position: absolute;
+        left: 0px;
+        top: 340px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rps{
+        position: absolute;
+        left: 0px;
+        top: 555px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rpg{
+        position: absolute;
+        left: 250px;    
+        top: 125px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rutgers{
+        position: absolute;
+        left: 250px;
+        top: 340px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+
+    #Name-Space{
+        width:575px;
+        margin-right:15px;
+    }
+    
+    #Email-Space{
+        width: 575px;
+    }
+    
+    #Message-Space{
+        width: 575px;
+        height: 250px;
+    }
+
+    #footer{
+        text-align: center;
+        background-color:#666666;
+        position: relative;
+        margin-top: -50px;
+        height: 50px;
+        clear: both;
+        margin: 0 -10px -10px -10px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .top-nav-right{
+        clear: both;
+        position: relative;
+        left: 150px;
+    }
+
+    .top-nav{
+        margin-left: 100px;
+    }
+
+    .container{
+        width: 500px;
+        min-height: 100%;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        clear: both;
+    }
+
+    hr{
+        width: 400px;
+    }
+
+    .bio{
+        font-size: 15px;
+    }
+
+    #copyright{
+        padding-top: 35px;
+        font-size:10px;
+    }
+
+    .image{
+        margin: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    #hangman{
+        position: absolute;
+        left: 0px;
+        top: 125px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #trivia{
+        position: absolute;
+        left: 0px;
+        top: 340px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rps{
+        position: absolute;
+        left: 0px;
+        top: 555px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rpg{
+        position: absolute;
+        left: 250px;    
+        top: 125px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rutgers{
+        position: absolute;
+        left: 250px;
+        top: 340px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+
+    #Name-Space{
+        width:425px;
+        margin-right:15px;
+    }
+    
+    #Email-Space{
+        width: 425px;
+    }
+    
+    #Message-Space{
+        width: 425px;
+        height: 250px;
+    }
+
+    #footer{
+        text-align: center;
+        background-color:#666666;
+        position: relative;
+        margin-top: -50px;
+        height: 50px;
+        clear: both;
+        margin: 0 -10px -10px -10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .top-nav-right{
+        clear: both;
+        position: relative;
+        margin-right: 160px;
+        bottom: -45px;
+        background-color: white;
+        min-width: 100%;
+        padding-top: 25px;
+        text-align: center;
+        height: 50px; 
+    }
+
+    .top-nav{
+        position: static;
+    }
+
+    .container{
+        width: 300px;
+        margin-top:100px;
+        min-height: 100%;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        clear: both;
+    }
+
+    hr{
+        width: 250px;
+    }
+
+    .bio{
+        font-size: 15px;
+    }
+
+    #copyright{
+        padding-top: 35px;
+        font-size:10px;
+    }
+
+    .image{
+        margin: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    #row1{
+        margin-right:15px;
+    }
+
+    #row2{
+        margin-right:15px;
+        margin-left: 15px;
+    }
+
+    #hangman{
+        position: absolute;
+        left: 0px;
+        top: 125px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #trivia{
+        position: absolute;
+        left: 0px;
+        top: 315px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rps{
+        position: absolute;
+        left: 0px;
+        top: 525px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rpg{
+        position: absolute;
+        left: 0px;    
+        top: 735px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    #rutgers{
+        position: absolute;
+        left: 0px;
+        top: 925px;
+        background-color: #4aaaa5;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+    }
+
+    #Name-Space{
+        width:225px;
+        margin-right:15px;
+    }
+    
+    #Email-Space{
+        width: 225px;
+    }
+    
+    #Message-Space{
+        width: 225px;
+        height: 250px;
+    }
+
+    #footer{
+        text-align: center;
+        background-color:#666666;
+        position: relative;
+        margin-top: -50px;
+        height: 50px;
+        clear: both;
+        margin: 0 -10px -10px -10px;
+    }
+}
+
